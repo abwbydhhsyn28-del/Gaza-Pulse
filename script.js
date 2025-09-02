@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'مسؤولون أميركيون ودوليون يبحثون خطة ما بعد الحرب في غزة دون التوصل لاتفاق.'
     ];
 
-    const titleElements = document.querySelectorAll('.news-title');
-    
+    const titleElements = document.querySelectorAll('.news-title'); 
+    /*  الي عملته للعنوان الرئيسي للاخبار html هاد كلاس تم ربطه من ال news-title كلاس  */
     titleElements.forEach((element, index) => {
         if (fixedTitles[index]) {
             element.textContent = fixedTitles[index];
