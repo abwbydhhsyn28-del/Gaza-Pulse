@@ -1,5 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
-    // قائمة العناوين المحددة
+
     const fixedTitles = [
         'حرب غزة مستمرة ليومها 692',
         'تصنيف دولي يؤكد وقوع المجاعة في غزة ويهدد بانتشارها إلى مناطق أخرى.',
@@ -19,4 +18,5 @@ document.addEventListener('DOMContentLoaded', () => {
             element.textContent = 'متابعة لأحدث التطورات';
         }
     });
+
 });
