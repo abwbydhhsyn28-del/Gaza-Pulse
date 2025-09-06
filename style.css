@@ -1,11 +1,11 @@
-/* تنسيقات عامة */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 30px ;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa; /* خلفية فاتحة جدًا */
-    color: #343a40; /* لون نص داكن */
+    background-color: #f8f9fa; 
+    color: #343a40; 
     
 }
 
@@ -245,4 +245,5 @@ footer .container {
     .sidebar {
         order: -1;
     }
+
 }
